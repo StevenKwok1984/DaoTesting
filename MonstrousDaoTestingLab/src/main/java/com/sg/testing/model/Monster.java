@@ -23,6 +23,9 @@ public class Monster {
         this.favoriteFood = favoriteFood;
     }
 
+    public Monster(int id) {
+    }
+
     public String getName() {
         return name;
     }

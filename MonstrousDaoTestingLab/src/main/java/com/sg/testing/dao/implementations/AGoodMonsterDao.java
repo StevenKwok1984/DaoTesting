@@ -14,7 +14,10 @@ import java.util.Map;
 public class AGoodMonsterDao implements MonsterDao {
 
     Map<Integer, Monster> monsters = new HashMap<>();
-    
+
+    public AGoodMonsterDao(int id) {
+    }
+
     @Override
     public Monster addMonster(int id, Monster m) {
         return monsters.put(id, m);
